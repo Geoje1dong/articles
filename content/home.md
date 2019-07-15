@@ -10,3 +10,5 @@ cats:
     name: Grumpy cat (Tardar Sauce)
 ---
 테스트 입니다.
+
+![](/static/img/리자몽.gif)
