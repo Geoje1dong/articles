@@ -10,20 +10,20 @@ export default class Home extends Component {
           <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }}/>
           <ul>
-              { articles.map((article, index) => (
-                  <li key={index}>
-                    <h2>{article.name}</h2>
-                    <p>{article.description}</p>
-                    <p>
-                      <img src={`/${article.img}`} />
-                    </p>
-                    <p>{article.date}</p>
-                    <Link href={`${article.link}`}>
-                      <a target="_blank">링크 바로가기</a>
-                    </Link>
-                    <a href={`${article.link}`} target="_blank">링크2 바로가기</a>
-                  </li>
-              ))}
+            { articles.map((article, index) => (
+              <li key={index}>
+                <h2>{article.name}</h2>
+                <p>{article.description}</p>
+                <p>
+                  <img src={`/${article.img}`} />
+                </p>
+                <p>{article.date}</p>
+                <Link href={`${article.link}`}>
+                  <a target="_blank">링크 바로가기</a>
+                </Link>
+                <a href={`${article.link}`} target="_blank">링크2 바로가기</a>
+              </li>
+            ))}
           </ul>
       </article>
     )

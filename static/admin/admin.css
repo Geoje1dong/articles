@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+  .css-1fehwpo-AppMainContainer, .css-hn3jn7-EditorContainer{
+    min-width: initial;
+  }
+}
+@media screen and (max-width: 450px){
+  .css-pyxbz6-CollectionContainer{
+    margin:0;
+  }
+  aside{
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-bottom:20px;
+  }
+  main{
+    padding: 0;
+    width: 100%;
+  }
+}
