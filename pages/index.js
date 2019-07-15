@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import content from '../content/articles.md';
+import content from '../content/blog.md';
 import Link from 'next/link'
 
 export default class Home extends Component {
