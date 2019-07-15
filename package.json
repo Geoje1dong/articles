@@ -7,6 +7,9 @@
     "export": "npm run build && next export"
   },
   "dependencies": {
+    "@next/mdx": "^8.1.0",
+    "@zeit/next-sass": "^1.0.1",
+    "bulma": "^0.7.5",
     "netlify-cms": "^2.9.6",
     "next": "^9.0.1",
     "react": "^16.8.6",
