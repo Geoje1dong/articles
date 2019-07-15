@@ -8,7 +8,7 @@ collections:
     files:
     - label: "Blog"
       name: "blog"
-      file: "content/aticles.md"
+      file: "content/blog.md"
       fields: 
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Body", name: "body", widget: "markdown"}
