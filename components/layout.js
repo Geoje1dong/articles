@@ -1,14 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import '../styles/styles.sass'
 
 export default ({ children }) => {
-  /*
-   * Added this to toggle the is-active class. See:
-   * 
-   * https://bulma.io/documentation/components/navbar/#navbar-menu
-   * https://github.com/jgthms/bulma/issues/856
-   */
+
   const toggleStyles = (event) => {
     document.querySelector('#burger').classList.toggle('is-active')
     document.querySelector('#navbarmenu').classList.toggle('is-active')
