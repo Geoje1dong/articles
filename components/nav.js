@@ -1,59 +1,48 @@
 import React from 'react'
-import Link from 'next/link'
+import styled from 'styled-components'
+import { Inbox, BarChart2 } from 'react-feather';
 
-const links = [
-  { href: 'https://github.com/segmentio/create-next-app', label: 'Github' }
-].map(link => {
-  link.key = `nav-link-${link.href}-${link.label}`
-  return link
-})
+export default class Nav extends React.Component{
+  
+  state = {
+    menuModal: false
+  }
 
-const Nav = () => (
-  <nav>
-    <ul>
-      <li>
-        <Link prefetch href="/">
-          <a>Home</a>
-        </Link>
-      </li>
-      <ul>
-        {links.map(({ key, href, label }) => (
-          <li key={key}>
-            <Link href={href}>
-              <a>{label}</a>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </ul>
+  handleclick = () => {
+    alert('메뉴 작업중입니다.')
+  }
 
-    <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-          Helvetica, sans-serif;
-      }
-      nav {
-        text-align: center;
-      }
-      ul {
-        display: flex;
-        justify-content: space-between;
-      }
-      nav > ul {
-        padding: 4px 16px;
-      }
-      li {
-        display: flex;
-        padding: 6px 8px;
-      }
-      a {
-        color: #067df7;
-        text-decoration: none;
-        font-size: 13px;
-      }
-    `}</style>
-  </nav>
-)
+  render(){
+    return(
+      <>
+      <StyledNavBar>
+        <span><Inbox  /></span>
+        <Button onClick={this.handleclick}>
+          <BarChart2 />
+        </Button>
+      </StyledNavBar>
+      </>
+    )
+  }
+}
 
-export default Nav
+const StyledNavBar = styled.div`
+  display:flex;
+  margin-bottom:36px;
+  a {
+    color:#1f1f1f;
+    text-decoration:none;
+  }
+`
+const Button = styled.button`
+  margin-left:auto;
+  cursor:pointer;
+  background:none;
+  border:0;
+  >svg {
+    transform:rotate(270deg)
+  }
+  :focus, :hover{
+    outline:0;
+  }
+`

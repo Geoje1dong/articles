@@ -13,7 +13,10 @@
     "netlify-cms": "^2.9.6",
     "next": "^9.0.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-eva-icons": "0.0.8",
+    "react-feather": "^2.0.3",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "frontmatter-markdown-loader": "^1.8.0"
