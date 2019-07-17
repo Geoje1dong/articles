@@ -5,8 +5,33 @@ import styled, {createGlobalStyle} from 'styled-components'
 import Nav from '../components/nav'
 
 export default class Home extends Component {
-  render() {
+  constructor(props) {
+    super(props);
+    this.state = {
+      Aarticle: [],
+    }
+  }
+
+  componentDidMount() {
+    let { attributes:{ articles } } = content;
+
+    
+    
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      Aarticle: articles
+    });
+    
+  }
+  
+  
+  render() {  
     let { html , attributes:{ title, articles } } = content;
+    let sortName = articles.sort(function(a,b){
+      return b.id - a.id;
+    })
     return (
       <>
       <GlobalStyle />
@@ -16,9 +41,8 @@ export default class Home extends Component {
           {/* <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }}/> */}
           { articles.map((article, index) => (
-            <ArticleBox  key={index}>
+            <ArticleBox  key={index} background={`static/img/${article.img}`}>
               <Link href={`${article.link}`}><a target="_blank">
-                <img src={`static/img/${article.img}`} alt={`${article.name} ${article.description} 이미지`} />
                 <ArticleText>
                   <h2>{article.name}</h2>
                   <p>{article.description}</p>
@@ -36,14 +60,8 @@ export default class Home extends Component {
 
 const ArticleWrap = styled.article`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 20px;
-  @media (max-width: 800px){
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media (max-width: 500px){
-    grid-template-columns: repeat(1, 1fr);
-  }
 `
 
 const GlobalStyle = createGlobalStyle`
@@ -64,6 +82,7 @@ const ArticleBox = styled.div`
   cursor:pointer;
   position:relative;
   width:100%;
+  max-height:200px;
   border-radius:10px;
   background:#000;
   overflow:hidden;
@@ -73,8 +92,11 @@ const ArticleBox = styled.div`
     margin: 0;
     position:relative;
     width:100%;
-    height:100%;
+    height:200px;
     line-height: 0em;
+    background-image: url(${props => props.background});
+    background-size: cover;
+    background-position: center;
     >img{width:100%;} 
     &:after{
       content:'';
@@ -105,6 +127,12 @@ const ArticleText = styled.div`
     margin-top:8px;
     font-size:14px;
     font-weight:300;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    /* 여러 줄 자르기 추가 스타일 */ 
+    white-space: normal; 
+    line-height: 1.4em; 
+    height: 2.8em;
   }
 `
 
@@ -118,6 +146,7 @@ const StyledWrap = styled.div`
   background:#fff;
   max-width:1024px;
   width:100%;
+  height:100%;
   margin:0 auto;
   h2{margin-top:0;}
   box-sizing:border-box;

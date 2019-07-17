@@ -7,14 +7,12 @@ articles:
     link: >-
       https://medium.com/@max_1206/%ED%8C%80%EC%9D%98-%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%8F%99%EB%A3%8C-%ED%8F%89%EA%B0%80-peer-review-f7800d5d8019
     name: 팀의 성장을 위한 디자인 동료 평가
-    id: 0
   - description: |-
       무료로 사용가능한 웹 아이콘 폰트 입니다.
       svg, js를 지원합니다.
     img: feathericon.png
     link: 'https://feathericons.com/'
     name: feather icon 소개
-    id: 1
   - description: >-
       나는 보통 재능이나 공부의 양으로 친구들의 성장 속도를 따라가기 힘들었다.
 
@@ -27,7 +25,6 @@ articles:
     link: >-
       https://velog.io/@city7310/%EB%82%B4%EA%B0%80-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D
     name: 내게 실용적이었던 프로그래밍 공부 방법들
-    id: 2
   - description: |-
       Ch.1 Git과 버전 관리
       Ch.2 Git&GitHub 익히기 feat.CLI
@@ -35,18 +32,5 @@ articles:
     img: git-github.001.jpeg
     link: 'https://milooy.wordpress.com/2019/06/08/git-add-commit/'
     name: '[Git] 그림으로 배우는 Add, Commit의 원리'
-    id: 3
-  - description: |-
-      그분에게 어떤 업무를 하고 싶냐고 물었더니 "운영"이라고 했었다. 처음엔 "운영이라니... 뛰어난 역량을 가지고 있으니 중요한 개발을 해야지"라는 생각이 들면서, 실망감이 들었었다.
-    img: id04.jpg
-    link: 'https://brunch.co.kr/@cleancode/36'
-    name: '운영을 해 봐야 한다'
-    id: 4
-  - description: |-
-      비트윈 개발팀에서는 많은 인프라 비용을 소모하는 기존 썸네일 저장 방식을 개선하여 70%에 가까운 비용 절감 효과를 보았습니다. 기존의 썸네일을 미리 생성해놓는 방식으로부터 클라이언트가 요청할 때 해당 크기의 썸네일을 리사이징해서 내려주는 방식으로 변경하였고, WebP와 Skia등의 새로운 기술을 적용하였습니다. 이를 통해서 사용자 경험에는 거의 영향을 주지 않은 상태로 비용 절감 효과를 볼 수 있었습니다.
-    img: id05.jpg
-    link: 'https://www.theteams.kr/teams/2739/post/68195'
-    name: '서버 비용을 70%나 줄인 온디맨드 리사이징 이야기'
-    id: 5
 ---
 테스트 입니다.

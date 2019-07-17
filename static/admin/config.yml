@@ -21,3 +21,5 @@ collections:
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Img", name: "img", widget: "string"}
             - { label: "Link", name: "link", widget: "string"}
+            - { label: "Id", name: "id", widget: "string"}
+            - {label: 'Publish Date', name: 'date', widget: 'datetime', dateFormat: 'YYYY-MM-DD', timeFormat: 'HH:mm', format: 'YYYY-MM-DD HH:mm'}
