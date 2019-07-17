@@ -4,29 +4,7 @@ import Link from 'next/link'
 import styled, {createGlobalStyle} from 'styled-components'
 import Nav from '../components/nav'
 
-export default class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      Aarticle: [],
-    }
-  }
-
-  componentDidMount() {
-    let { attributes:{ articles } } = content;
-
-    
-    
-  }
-
-  componentWillReceiveProps(nextProps) {
-    this.setState({
-      Aarticle: articles
-    });
-    
-  }
-  
-  
+export default class Home extends Component {  
   render() {  
     let { html , attributes:{ title, articles } } = content;
     let sortName = articles.sort(function(a,b){
