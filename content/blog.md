@@ -14,7 +14,7 @@ articles:
       무료로 사용가능한 웹 아이콘 폰트 입니다.
       svg, js를 지원합니다.
     id: 1
-    img: feathericon.png
+    img: static/img/feathericon.png
     link: 'https://feathericons.com/'
     name: feather icon 소개
   - date: '2019-07-17 15:04'
@@ -27,7 +27,7 @@ articles:
       velog의 독자들은 '경험기'같은 글에 니즈가 꽤 있는 것 같아서, 부족하지만 내 공부를 위한 매개체들을 쭉 소개하고, 내가 어떻게
       공부하는지를 짧게 이야기하고자 한다.
     id: 2
-    img: capture004.png
+    img: static/img/capture004.png
     link: >-
       https://velog.io/@city7310/%EB%82%B4%EA%B0%80-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D
     name: 내게 실용적이었던 프로그래밍 공부 방법들
@@ -37,7 +37,7 @@ articles:
       Ch.2 Git&GitHub 익히기 feat.CLI
       Ch.3 Git&GitHub 다지기 feat.GUI
     id: 3
-    img: git-github.001.jpeg
+    img: static/img/git-github.001.jpeg
     link: 'https://milooy.wordpress.com/2019/06/08/git-add-commit/'
     name: '[Git] 그림으로 배우는 Add, Commit의 원리'
   - date: '2019-07-17 15:04'
@@ -45,7 +45,7 @@ articles:
       그분에게 어떤 업무를 하고 싶냐고 물었더니 "운영"이라고 했었다. 처음엔 "운영이라니... 뛰어난 역량을 가지고 있으니 중요한 개발을
       해야지"라는 생각이 들면서, 실망감이 들었었다.
     id: 4
-    img: id04.jpg
+    img: static/img/id04.jpg
     link: 'https://brunch.co.kr/@cleancode/36'
     name: 운영을 해 봐야 한다
   - date: '2019-07-17 15:04'
@@ -55,7 +55,7 @@ articles:
       WebP와 Skia등의 새로운 기술을 적용하였습니다. 이를 통해서 사용자 경험에는 거의 영향을 주지 않은 상태로 비용 절감 효과를 볼
       수 있었습니다.
     id: 5
-    img: id05.jpg
+    img: static/img/id05.jpg
     link: 'https://www.theteams.kr/teams/2739/post/68195'
     name: 서버 비용을 70%나 줄인 온디맨드 리사이징 이야기
   - date: '2019-07-17 15:04'
@@ -63,7 +63,7 @@ articles:
       리치 인터페이스 디자인 이라는 책을 읽고 팀원들과 공유하며 모두에게 유익한 시간이 될 것 같아
       북리뷰를 진행했습니다.
     id: '6'
-    img: id06.jpeg
+    img: static/img/id06.jpeg
     link: 'https://brunch.co.kr/@plusx/20'
     name: 웹 인터페이스는 어떻게 모바일에 적용되었을까?
 ---

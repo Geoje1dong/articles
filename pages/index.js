@@ -19,7 +19,7 @@ export default class Home extends Component {
           {/* <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }}/> */}
           { articles.map((article, index) => (
-            <ArticleBox  key={index} background={`static/img/${article.img}`}>
+            <ArticleBox  key={index} background={`${article.img}`}>
               <Link href={`${article.link}`}><a target="_blank">
                 <ArticleText>
                   <h2>{article.name}</h2>
