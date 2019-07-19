@@ -66,5 +66,17 @@ articles:
     img: static/img/id06.jpeg
     link: 'https://brunch.co.kr/@plusx/20'
     name: 웹 인터페이스는 어떻게 모바일에 적용되었을까?
+  - date: '2019-07-19 21:22'
+    description: >-
+      아래 내용은
+      https://medium.com/react-native-training/react-animations-in-depth-433e2b3f0e8e를
+      해석한 내용입니다. 의역과 오역이 난무하니 자세한 내용은 해당 블로그를 참조하시면 이해가 더 쉬울 것 같습니다.
+
+      개취: 억지로 번역하면 뜻이 더 모호해지는 단어들은 그 자체로 두었습니다. -:)
+    id: '7'
+    img: react
+    link: >-
+      https://medium.com/@minoo/%EB%B2%88%EC%97%AD-5%EA%B0%80%EC%A7%80-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%9E%A5-%EB%8B%A8%EC%A0%90-%EB%B9%84%EA%B5%90-react-animations-in-depth-884ff6e61b88
+    name: '[번역] 5가지 리액트 애니메이션 사용방법 비교 (React Animations in Depth)'
 ---
 테스트 입니다.
