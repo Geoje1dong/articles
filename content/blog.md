@@ -5,7 +5,7 @@ articles:
   - date: '2019-07-17 15:04'
     description: 디자이너가 이런 워크플로우를 도입한다는 게 어떤 의미인지 육하원칙을 통해 알아봅시다.
     id: 0
-    img: 0_zogkghokukdu6twu-1-1-.png
+    img: static/img/0_zogkghokukdu6twu-1-1-.png
     link: >-
       https://medium.com/@max_1206/%ED%8C%80%EC%9D%98-%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%8F%99%EB%A3%8C-%ED%8F%89%EA%B0%80-peer-review-f7800d5d8019
     name: 팀의 성장을 위한 디자인 동료 평가
@@ -74,9 +74,16 @@ articles:
 
       개취: 억지로 번역하면 뜻이 더 모호해지는 단어들은 그 자체로 두었습니다. -:)
     id: '7'
-    img: react
+    img: static/img/react
     link: >-
       https://medium.com/@minoo/%EB%B2%88%EC%97%AD-5%EA%B0%80%EC%A7%80-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%9E%A5-%EB%8B%A8%EC%A0%90-%EB%B9%84%EA%B5%90-react-animations-in-depth-884ff6e61b88
     name: '[번역] 5가지 리액트 애니메이션 사용방법 비교 (React Animations in Depth)'
+  - date: '2019-07-22 13:23'
+    description: '#이응준#강연#API#DEVIEW2017'
+    id: '8'
+    img: >-
+      https://www.akamai.com/kr/ko/multimedia/images/video/akamai-api-video-thumbnail.jpg?imwidth=1366
+    link: 'https://tv.naver.com/v/2292653'
+    name: 'Day1, 2-2. 그런 REST API로 괜찮은가'
 ---
 테스트 입니다.
