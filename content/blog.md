@@ -85,5 +85,12 @@ articles:
       https://www.akamai.com/kr/ko/multimedia/images/video/akamai-api-video-thumbnail.jpg?imwidth=1366
     link: 'https://tv.naver.com/v/2292653'
     name: 'Day1, 2-2. 그런 REST API로 괜찮은가'
+  - date: '2019-07-23 13:29'
+    description: 스타트업 서비스 기획하는 이야기 시리즈 - 오늘도 배웁니다.
+    id: '9'
+    img: >-
+      http://t1.daumcdn.net/brunch/service/user/1oQQ/image/0tZj8CkWWFuMFKi7coRpLKtzpJE.jpg
+    link: 'https://brunch.co.kr/@puzzle87/198'
+    name: 기획서는 어떻게 쓰는 것이 좋을까요?
 ---
 테스트 입니다.
