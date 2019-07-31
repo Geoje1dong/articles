@@ -8,7 +8,7 @@ export default class Home extends Component {
   render() {  
     let { html , attributes:{ title, articles } } = content;
     let sortName = articles.sort(function(a,b){
-      return b.id - a.id;
+      return b.date - a.date;
     })
     return (
       <>

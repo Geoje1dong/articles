@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Inbox, BarChart2 } from 'react-feather';
+import Menu from './menu'
 
 export default class Nav extends React.Component{
   
@@ -8,8 +9,9 @@ export default class Nav extends React.Component{
     menuModal: false
   }
 
-  handleclick = () => {
-    alert('메뉴 작업중입니다.')
+  handleclick = () =>{
+    this.setState({ menuModal: !this.state.menuModal });
+    window.scrollTo(0,0);
   }
 
   render(){
@@ -17,9 +19,10 @@ export default class Nav extends React.Component{
       <>
       <StyledNavBar>
         <span><Inbox  /></span>
-        <Button onClick={this.handleclick}>
+        {/* <Button onClick={this.handleclick}>
           <BarChart2 />
-        </Button>
+        </Button> */}
+        {this.state.menuModal && <Menu closeClick={this.handleclick}/>}
       </StyledNavBar>
       </>
     )
@@ -28,7 +31,9 @@ export default class Nav extends React.Component{
 
 const StyledNavBar = styled.div`
   display:flex;
-  margin-bottom:36px;
+  margin-bottom:10px;
+  position:relative;
+  z-index:10;
   a {
     color:#1f1f1f;
     text-decoration:none;
