@@ -99,5 +99,13 @@ articles:
     link: >-
       https://hudi.kr/es6-%eb%ac%b8%eb%b2%95%ec%9c%bc%eb%a1%9c-%eb%8b%a4%ec%8b%9c-%ec%8b%9c%ec%9e%91%ed%95%98%eb%8a%94-%ec%9e%90%eb%b0%94%ec%8a%a4%ed%81%ac%eb%a6%bd%ed%8a%b8/
     name: ES6 문법으로 다시 시작하는 자바스크립트
+  - date: '2019-09-30 13:20'
+    description: >-
+      pxd에서 사용자를 이해하는 방법으로 데이터 활용에 관심을 갖기 시작한 것은 2013년 전후일 것 같습니다. 이번 글에서는 UX
+      디자인 프로세스에서 데이터에 근거하여 사용자 모델링을 하는 방법에 대해 이야기하려고 합니다.
+    img: >-
+      https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FcxJ877%2FbtqyFFcCqNJ%2FOboK1Qtsn3NX5a7BVrc3VK%2Fimg.jpg
+    link: 'https://story.pxd.co.kr/1452'
+    name: 'Data Driven User Modeling - 데이터 기반의 사용자 모델링 프로세스 '
 ---
 테스트 입니다.
